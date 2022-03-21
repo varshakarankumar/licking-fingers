@@ -1,0 +1,283 @@
+/* css reset */
+body{
+    margin: 0;
+    }
+    
+    .fan{
+        position: relative;
+        z-index: 19;
+    }
+    #navbar{
+        background-color: #1d1616;
+        position: sticky;
+        top: 0;
+        width: 1350px;
+        height: 100px;
+        transition-property: background color;
+        transition: ease-in-out;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        z-index: 20;
+    }
+    .vv{
+        padding: 0cm;
+        margin-bottom: 10cm;
+    }
+    
+    #logo img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        
+    }
+    #call{
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        top: 650px;
+        background-color: black;
+        color: black;
+        width: 1370px;
+        height: 80px;
+    
+    }
+    
+    h1.tt{
+        font-size: xxx-large;
+        position: relative;
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        top: 2px;
+        /* font-family:  'Ubuntu', sans-serif; */
+        font-style:italic;
+        font-weight: 10000;
+        background-color: rgb(5, 4, 4);
+        color: rgb(204, 193, 172);
+        animation-name: var;
+        animation-duration: 7s;
+        animation-delay: 0s;
+        animation-iteration-count:infinite;
+        animation-timing-function:ease-in-out;
+    }
+
+    @keyframes var{
+        0%{
+            right: 0;
+            left: 0;
+        }
+        50%{
+            left: 1000px;
+            
+        }
+    }
+    #navbar{
+        display:flex ;}
+        
+     li.ven{
+        display: inline-flex;
+        position: relative;
+        justify-content: center;       
+    }
+    h3{
+        text-align: center;
+       
+        margin:10px ;
+        position: relative;
+        bottom: 35px;
+    }
+    .box{
+        background-color: #ffecec;
+    }
+    
+    #b1{
+        border: solid 2px rgb(233, 61, 8);
+        height: 500px;
+        margin: 10px;
+        border-radius: 10px;
+        width:400px ;
+    box-shadow: crimson 5px 10px 5px;}
+    #b3{
+        border: solid 2px rgb(233, 61, 8);
+        height: 500px; margin: 10px;
+        border-radius: 10px;
+        width:400px ;
+        box-shadow: crimson 5px 10px 5px;
+    }
+    
+    #b2{ 
+        border: solid 2px rgb(233, 61, 8);
+        height: 500px; margin: 10px;
+        border-radius: 10px;
+        width:400px ;
+        box-shadow: crimson 5px 10px 5px;
+    }
+    
+    .services{
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .head{
+        text-align: center;
+        position: relative;
+        top: 350px;
+    }
+    #client{
+        text-align: center;
+        position: relative;
+        top: 650px;
+    }
+    /* #client::before{
+        content: "";
+        position: absolute;
+        justify-content: center;
+    
+        background: url(../images/social\ media.jpg);
+        /* width: 500px;
+        height: 500px; */
+        /* z-index: -1;
+        opacity: 0.9; */
+    .dd input{
+    margin: 10px;
+    width: 800px;
+    height: 20px;
+    border-radius: 10px;
+    align-content: right;}
+    
+    /* }
+    .thth{
+        z-index: -1;
+    } */
+    .dd{
+        text-align: right;
+        font-size: 30px;
+        font-weight:900;position: relative;
+        right: 150px;
+        top: 50px;
+    }
+    /* .uu{
+      position: relative;
+      right: 400px;
+    } */
+    .uu{
+        width: 400px;
+        height: 40px;
+        position: relative;
+        top: 55px;
+        left: 80px;
+    }
+    
+    
+    #call::before{
+        content: " ";
+        
+        position:absolute;
+        top: 0;
+        left: 0;
+        /* top: 1900px; */
+        background: url(../images/contact\ us.jpg);
+    /* top: 300px; */
+    /* width: 1360px;
+    height: 100%; */
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.7;
+    
+    
+    }
+    
+    /*.tt{
+       align-content:center ;
+        position: relative;
+    }*/
+
+    .containor{
+        
+        height: 200px;
+        width: 1000px;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        top: 350px;
+       left: 175px;
+    }
+    .box img{
+        
+        margin: 30px;
+     height: 250px;   
+     width: 250px;
+    }
+    #how{
+        
+        display: flex;
+        flex-direction: column;
+        /* height: 500px; */
+        position: relative;
+        top: 100px;
+         text-align:center ;
+        justify-content: center;
+    }
+    #how::before{
+        background: url(images/food\ first.jpg);
+        content:"";
+        position:absolute;
+        width: 1350px;
+        height: 200%;
+        z-index: -1;
+    opacity: 0.6;
+    
+    }
+    h1{
+        font-size: 2.9rem;
+        color: #1d1616;
+       
+    }
+    button{
+        
+        /* position:absolute; */
+         /* align-self: center; */
+        
+        width: 500px;
+        height: 30px;
+        
+    position: relative;
+    top: 2cm;
+    left: 32%;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 799;
+    background-color: black;
+    color: burlywood;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 2px;
+    }
+    button:hover{
+        color: rgb(97, 81, 18);
+        padding: 2px;
+    
+    }
+    a{
+        align-items: center;
+        text-decoration: none;
+        margin: 30px;
+        padding: 7px;
+        font-size: 25px;
+        color: wheat;
+    }
+    a:hover{
+        color: black;
+        background: wheat;
+        border-radius: 20px;
+        padding: 7px;
+    }
+    p.rr{
+        font-size: large;
+        color: rgb(153, 37, 37);
+    }
+    h1.heok{
+        font-size: 55px;
+    }
